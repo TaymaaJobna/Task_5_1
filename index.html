@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Calculater</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="calculater">
+            <input type="text" placeholder="0" id="output" class="output nbgcolor">
+            <button class="btn bgcolor cl" onclick="Clear()">C</button>
+            <button class="btn bgcolor del" onclick="Delet()">Del</button>
+            <button class="btn bgcolor operator" onclick="Display('/')">/</button>
+            <button class="btn bgcolor operator" onclick="Display('+')">+</button>
+            <button class="btn nbgcolor num" onclick="Display('7')">7</button>
+            <button class="btn nbgcolor num" onclick="Display('8')">8</button>
+            <button class="btn nbgcolor num" onclick="Display('9')">9</button>
+            <button class="btn bgcolor operator" onclick="Display('*')">*</button>
+            <button class="btn nbgcolor num" onclick="Display('4')">4</button>
+            <button class="btn nbgcolor num" onclick="Display('5')">5</button>
+            <button class="btn nbgcolor num" onclick="Display('6')">6</button>
+            <button class="btn bgcolor operator" onclick="Display('-')">-</button>
+            <button class="btn nbgcolor num" onclick="Display('1')">1</button>
+            <button class="btn nbgcolor num" onclick="Display('2')">2</button>
+            <button class="btn nbgcolor num" onclick="Display('3')">3</button>
+            <button class="btn zero nbgcolor num" onclick="Display('0')">0</button>
+            <button class="btn nbgcolor num" onclick="Display('.')">.</button>
+            <button class="btn equal equalcolor"onclick="calc('=')">=</button>
+        </div>
+    </main>
+    <script src="./assets/javascript.js"></script>
+</body>
+
+</html>
